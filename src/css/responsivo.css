@@ -1,18 +1,14 @@
 @media (max-width: 425px) {
 
-    body{
+    body {
         overflow: scroll;
     }
 
-    .principal{
-        display: flex;
-        flex-direction: column;
-    }
-
     .conteudo {
-        max-width: 100vh;
-        height: 730px;
-        padding: 30px;
+        width: 100%;
+        height: 490px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .logo {
@@ -20,15 +16,17 @@
     }
 
     .valor {
-        font-size: 30px;
+        font-size: 20px;
     }
 
     h1 {
-        font-size: 40px;
+        font-size: 35px;
+        padding-top: 30px;
     }
 
     .descricao {
-        font-size: 15px;
+        font-size: 12px;
+        padding-top: 20px;
     }
 
     h3 {
@@ -41,29 +39,33 @@
     }
 
     .carrinho {
-        height: 40px;
+        height: 35px;
         font-size: 15px;
         font-weight: 600;
     }
 
+    .tenis {
+        width: 100%;
+        height: 280px;
+        left: 50%;
+        top: 100%;
+    }
+
+
     .foto {
         max-width: 250px;
         transform: rotate(-15deg);
-    }
-
-    .tenis{
-        left: 50%;
-        top: 105%;
+        position: absolute;
+        left: 40px;
+        top: 50px;
     }
 
     .cores {
-        height: 70px;
+        height: 71px;
         width: 100%;
-        top: 80%;
-        left: 40px;
+        top: 111%;
+        left: 0;
         flex-direction: row;
-        justify-content: flex-start;
-        background-color: #1f1f1f01;
     }
 
     .botao {
