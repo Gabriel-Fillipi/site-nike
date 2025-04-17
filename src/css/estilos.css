@@ -1,0 +1,132 @@
+body {
+    background-color: #ccee66;
+    font-family: "Noto Sans", sans-serif;
+    overflow: hidden;
+    max-height: 100vh;
+}
+
+.conteudo {
+    max-width: 580px;
+    height: 100vh;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: white;
+    background-color: #1b1b1b;
+}
+
+.logo {
+    width: 120px;
+    padding-top: 20px;
+}
+
+.valor {
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 40px;
+}
+
+h1 {
+    font-size: 50px;
+    padding-top: 40px;
+}
+
+.descricao {
+    font-size: 16px;
+    padding-top: 40px;
+}
+
+.carrinho {
+    width: 200px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    background-color: #ccee66;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.carrinho:hover{
+    opacity: 0.7;
+    transition: 0.7s;
+}
+
+h3{
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.tamanho{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    padding-bottom: 28px;
+    gap: 5px;
+}
+
+.numeros{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.numeros:hover{
+    opacity: 0.5;
+    transition: 0.7s;
+}
+
+.foto {
+    width: 590px;
+    transform: rotate(-25deg);
+}
+
+.tenis {
+    position: absolute;
+    left: 64%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.cores{
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    flex-direction: column;
+    cursor: pointer;
+    height: 100%;
+    width: 150px;
+    align-items: center;
+    justify-content: center;
+    background-color: #1b1b1b;
+}
+
+.botao{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+
+.botao:hover{
+    opacity: 0.7;
+}
+
+.verde{
+    background-color: #ccee66;
+}
+
+.azul{
+    background-color: #58cced;
+}
+
+.rosa{
+    background-color: #ff9eb5;
+}
+
