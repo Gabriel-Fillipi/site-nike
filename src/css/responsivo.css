@@ -1,5 +1,9 @@
 @media (max-width: 425px) {
 
+    body{
+        overflow: scroll;
+    }
+
     .principal{
         display: flex;
         flex-direction: column;
@@ -7,9 +11,8 @@
 
     .conteudo {
         max-width: 100vh;
-        height: 480px;
-        padding-left: 20px;
-        padding-right: 20px;
+        height: 730px;
+        padding: 30px;
     }
 
     .logo {
@@ -17,17 +20,15 @@
     }
 
     .valor {
-        font-size: 20px;
+        font-size: 30px;
     }
 
     h1 {
-        font-size: 35px;
-        padding-top: 30px;
+        font-size: 40px;
     }
 
     .descricao {
-        font-size: 12px;
-        padding-top: 20px;
+        font-size: 15px;
     }
 
     h3 {
@@ -40,7 +41,7 @@
     }
 
     .carrinho {
-        height: 35px;
+        height: 40px;
         font-size: 15px;
         font-weight: 600;
     }
@@ -52,15 +53,17 @@
 
     .tenis{
         left: 50%;
-        top: 75%;
+        top: 105%;
     }
 
     .cores {
         height: 70px;
         width: 100%;
-        top: 92%;
-        left: 0;
+        top: 80%;
+        left: 40px;
         flex-direction: row;
+        justify-content: flex-start;
+        background-color: #1f1f1f01;
     }
 
     .botao {
